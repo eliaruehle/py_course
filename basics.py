@@ -15,4 +15,3 @@ print(f"Hello {world!a}")
 # there are also date specifier:
 today = dt.datetime(year=2023, month=4, day=14)
 print(f" Today is the {today:%B %d, %Y}")
-
