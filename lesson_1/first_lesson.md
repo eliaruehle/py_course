@@ -53,3 +53,7 @@
 - wie also Code schreiben und ausführen?
 
 ### Einfache Datentypen & -strukturen
+
+---
+
+[detailed bullets](https://docs.google.com/document/d/1ajODE2xZRfZ0tcr0La8fF50Lt_4n9iv19isfEGMoNlY/edit)
