@@ -26,6 +26,7 @@
 
 ## First Lesson
 
+- allgemeines zu Python
 - Installation
   - unter Mac, Windows, Linux hat es ja eigentlich default
   - gibt es eine Web-IDE auf die wir zurückgreifen können?
@@ -34,3 +35,5 @@
 - Voting: "Wie viel Kontakt bisher mit Programmierung?" usw
   - gibt uns Anhaltspunkt, wo wir anfangen
   - Joshi hatte da eine schnieke Anwendung in TGI, damit war die Übung richtig interaktiv - vielleicht https://www.mentimeter.com/de-DE/education 
+
+
