@@ -17,3 +17,7 @@ d = 3.1415926
 print(type(c))
 print(type(d))
 
+def add(x: int, y: int) -> int:
+    return x+y
+
+print(add(2.3, 1.2))
