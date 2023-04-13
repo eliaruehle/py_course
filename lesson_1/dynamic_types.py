@@ -14,10 +14,16 @@ print(type(a))
 # Typ einer Variable festlegen
 c = str("3.1415926")
 d = 3.1415926
+e = str(1.2)
 print(type(c))
 print(type(d))
+print(type(e))
 
-def add(x: int, y: int) -> int:
-    return x+y
+# Typisierung, aber Achtung!
+f:int = 1
+g:float = 2.3
+print(type(f))
+print(type(g))
 
-print(add(2.3, 1.2))
+h:int = 2.3
+print(type(h))
