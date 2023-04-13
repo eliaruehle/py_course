@@ -1,6 +1,6 @@
 
 # !pip install works for new installations
-import datetime as dt# This script should contain all the basics from the structure.md file.
+import datetime as dt # This script should contain all the basics from the structure.md file.
 
 # The following expression uses an f-String, that means the string is formatted and contains an replacement field in curly brackets {}
 # If an variable is not a string a conversion is necessary, this can be done via:
