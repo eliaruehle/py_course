@@ -115,3 +115,37 @@ $ python3 *datei_name.py*
 
 [detailed bullets](https://docs.google.com/document/d/1ajODE2xZRfZ0tcr0La8fF50Lt_4n9iv19isfEGMoNlY/edit)
 [presentation](https://www.mentimeter.com/app/dashboard)
+
+
+### Augaben
+
+#### Zahlen
+
++ Schreibe ein Programm, dass zwei Zahlen addiert und ausgibt.
+
++ Schreibe ein Programm, dass zwei Gleitkommazahlen addiert und das Ergebnis als Ganzzahl ausgibt.
+
+#### Strings
+
++ Schreibe ein Programm, dass zwei Strings konkateniert und ausgibt.
+
++ Definiere dir einen String und probiere aus, was die Funktionen count(), find(), split(), upper(), lower() tun!
+
+count(“…“)
+find(“…“)
+split(“…“)
+upper( )
+lower( )
+
+#### Listen
+
++ Schreibe eine Liste und füge alle Module hinzu, die du in diesem Semester belegst.
+
++ Schreibe eine Liste mit 
+
+
+#### After all
+
++ Schreibe ein Programm, dass zwei Gleitkommazahlen addiert und das Ergebnis als korrekt gerundete Ganzzahl ausgibt.
+
++ 
