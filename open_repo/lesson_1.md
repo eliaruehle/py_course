@@ -42,9 +42,9 @@
   3. Ausführung:
     - Navigation in korrektes Verzeichnis
     - Kommandozeilenbefehl:
-    ```zsh
-    $ python3 *datei_name.py* 
-    ```
+  ```zsh
+  $ python3 *datei_name.py* 
+  ```
 
 ## Syntax
 
@@ -53,7 +53,7 @@
   + Grad der Einrückung definiert Blöcke/ Scopes
 + Kommentare
   + einzeilig: ***#*** Kommentar
-  + mehrzeilig: ***"""*** ... ***"""***
+  + mehrzeilig: ***'''*** ... ***'''*** oder ***"""*** ... ***"""***
 
 ## Variablen
 
