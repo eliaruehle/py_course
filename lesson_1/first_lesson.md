@@ -46,7 +46,7 @@
 
 ### Installation
 
-- Elias stuff follows
+- see installation.md
 
 ### Arbeit mit Python
 
@@ -121,13 +121,13 @@ $ python3 *datei_name.py*
 
 #### Zahlen
 
-+ Schreibe ein Programm, dass zwei Zahlen addiert und ausgibt.
++ Schreibe ein Programm, dass zwei Zahlen addiert und ausgibt. Versuche auch die Datentypen int und float zu mischen, von welchem Datentyp ist das Ergebnis?
 
-+ Schreibe ein Programm, dass zwei Gleitkommazahlen addiert und das Ergebnis als Ganzzahl ausgibt.
++ Schreibe ein Programm, dass zwei Gleitkommazahlen addiert und das Ergebnis als Ganzzahl ausgibt. Probiere ob du es gezielt schaffst die Zahl einmal abgerundet und einmal aufgerundet auszugeben. Recherchiere nach den passenden Funktionen.
 
 #### Strings
 
-+ Schreibe ein Programm, dass zwei Strings konkateniert und ausgibt.
++ Schreibe ein Programm, dass zwei Strings konkateniert und ausgibt. Was passiert wenn man string1 += string2 berechnet und ausgeben lässt?
 
 + Definiere dir einen String und probiere aus, was die Funktionen count(), find(), split(), upper(), lower() tun!
 
@@ -139,12 +139,24 @@ lower( )
 
 #### Listen
 
-+ Schreibe eine Liste und füge alle Module hinzu, die du in diesem Semester belegst.
++ Schreibe eine Liste und füge alle Module hinzu, die du in diesem Semester belegst. Gib danach das letze Modul aus, welches du der Liste hinzugefügt hast. Gib auch die Anzahl aller Listenelemente aus.
 
-+ Schreibe eine Liste mit
++ Erstelle eine Liste aus mindestens 4 verschieden Datentypen. Gib für 2 Listenelemente den Typ aus. Wie kannst du auf Listenelemente zugreifen?
 
-#### After all
+#### Sets
++ Versuche aus einer von dir neu angelegten oder bereits vorhanden Liste ein Set zu extrahieren. Worin besteht der Unterschied zu einer List?
 
-+ Schreibe ein Programm, dass zwei Gleitkommazahlen addiert und das Ergebnis als korrekt gerundete Ganzzahl ausgibt.
++ Gebe dir die Anzahl an Einträgen des Sets aus, füge dann ein Element hinzu, welches schon vorhanden ist (recherchiere, wie das geht) und gib erneut die Länge aus, was passiert?
+Füge nun ein neues Element hinzu, was beobachtest du jetzt?
 
-+ 
+#### Tupel
++ Erstelle ein Tupel mit 3 Einträgen und versuche einen Eintrag zu verändern. Ist dies möglich? Was gibt der Interpreter aus? Erstelle nun ein Tupel ohne es mit Werten zu initialisieren, wie kann man das realisiren?
+
++ Schreibe eine Liste mit 
+
+
++ Erstelle zunächst ein leeres Dictionary (Welche 2 Methoden kann man dafür anwenden? Gibt es eine, die "schöner" ist?). Füge dann 5 Vorlesungen sowie den Professor hinzu der diese hält. Gib für 2 Vorlesungen aus, von welchem Professor sie gehalten werden. 
+
++ Eine Lehrveranstaltung kann ab sofort von mehreren Professoren gehalten werden. Ändere das Dictionary entsprechend ab, welche Datenstruktur eignet sich zum Ablegen mehrerer Vorlesungen?
+
++ (Zusatz:) Finde raus wie man sich alle keys und alle values eines vorhanden Dictionarys ausgeben lassen kann und teste es an deinem eigenen Beispiel.
