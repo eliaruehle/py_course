@@ -141,8 +141,7 @@ lower( )
 
 + Schreibe eine Liste und füge alle Module hinzu, die du in diesem Semester belegst.
 
-+ Schreibe eine Liste mit 
-
++ Schreibe eine Liste mit
 
 #### After all
 
