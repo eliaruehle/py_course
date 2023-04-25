@@ -152,8 +152,7 @@ Füge nun ein neues Element hinzu, was beobachtest du jetzt?
 #### Tupel
 + Erstelle ein Tupel mit 3 Einträgen und versuche einen Eintrag zu verändern. Ist dies möglich? Was gibt der Interpreter aus? Erstelle nun ein Tupel ohne es mit Werten zu initialisieren, wie kann man das realisiren?
 
-+ Schreibe eine Liste mit 
-
+### Dictionarys
 
 + Erstelle zunächst ein leeres Dictionary (Welche 2 Methoden kann man dafür anwenden? Gibt es eine, die "schöner" ist?). Füge dann 5 Vorlesungen sowie den Professor hinzu der diese hält. Gib für 2 Vorlesungen aus, von welchem Professor sie gehalten werden. 
 
