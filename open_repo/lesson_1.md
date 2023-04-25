@@ -109,7 +109,7 @@
     + 0
     + leere Strukturen (Listen, Sets, Tupel,...)
 
-*Hinweis ***bool(*** variable ***)*** gibt BOOLE'schen Wert einer Variable zurück*
+*Hinweis:  ***bool(*** variable ***)*** gibt BOOLE'schen Wert einer Variable zurück*
 
 4. Listen
 
@@ -124,7 +124,7 @@ list = [ ]
     + an bestimmter Stelle: ```list.insert(index, item)```
   + Entfernen
     + bestimmtes Element: ```list.remove(item)```
-    + an bestimmter Stelle: ```list.pop(index)```ODER ```del list[index]```
+    + an bestimmter Stelle: ```list.pop(index)```*(mit Rückgabewert)* ODER ```del list[index]```
   + Bearbeiten
     + ```list[index]= item ```
   + viele weitere Funktionen:
@@ -192,7 +192,7 @@ dict = { a : b}
     + ```dict.pop(key)```
   + weitere Funktionen:
     + keys(), values(), ...
-    
+
 
 ### Überblick zu Datenstrukturen
 
