@@ -38,7 +38,7 @@ Füge nun ein neues Element hinzu, was beobachtest du jetzt?
 
 + Erstelle zunächst ein leeres Dictionary (Welche 2 Methoden kann man dafür anwenden? Gibt es eine, die "schöner" ist?). Füge dann 5 Vorlesungen sowie den Professor hinzu der diese hält. Gib für 2 Vorlesungen aus, von welchem Professor sie gehalten werden. 
 
-+ Eine Lehrveranstaltung kann ab sofort von mehreren Professoren gehalten werden. Ändere das Dictionary entsprechend ab, welche Datenstruktur eignet sich zum Ablegen mehrerer Vorlesungen?
++ Absofort kann die gleiche Lehrveranstaltung durch mehrere Professoren gleichzeitig gehalten werden. Ändere das Dictionary entsprechend ab, welche Datenstruktur eignet sich zum Ablegen mehrerer Professoren?
 
 + (Zusatz:) Finde raus wie man sich alle keys und alle values eines vorhanden Dictionarys ausgeben lassen kann und teste es an deinem eigenen Beispiel.
 
