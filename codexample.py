@@ -28,3 +28,6 @@ if __name__ == "__main__":
 
     print(names(name="Uwe", number=81258537, home="Dresden"))
 
+if __name__ == "__main__":
+    main()
+

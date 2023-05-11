@@ -1,24 +1,26 @@
-from pprint import pprint
-dict1 = dict()
-set1 = set()
-list1 = list()
+my_list = [3,5,7.89,3.2,4]
 
-dict1["SWT"] = "Aßmann"
-dict1["Prog"] = "Fetzer"
-dict1["Mathe"] = "Baumann"
-dict1.update({"Ikt" : "Franz"})
-dict1["hallo"] = "welt"
-print(dict1["SWT"])
+s = 0
+for x in my_list:
+    s = s + x
 
-prof_list = ["Aßmann", "Goetz"]
+m = s/ len(my_list)
 
-dict1["SWT"] = prof_list
+print(m)
+print(round(m,0))
 
-pprint(dict1)
+if round(m,0)%2 == 0 :
+    print("Der Mittelwert ist gerade")
+else: 
+    print("Der Mittelwert ist ungerade")
 
-print(dict1.items())
-print("Keys: " + str(dict1.keys()))
-print("Values: " + str(dict1.values()))
+rm = round(m,0)%2 
 
-print("Keys: ", dict1.keys())
-print(dict1.values(), dict1.keys())
+
+number = 3.141
+
+match int(number)%2:
+    case 0:
+        print("Die Zahl ist gerade")
+    case _ : 
+        print("Die Zahl ist ungerade")
