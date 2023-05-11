@@ -51,7 +51,7 @@ print(type(auto1.fahrer),auto1.fahrer.name,person1.alter, auto1.farbe)
 
 kind1 = Kind("Mo", 4, person1)
 
-print(kind1.papa.name + "ist der Vater von" + kind1.name)
+print(kind1.papa.name + " ist der Vater von " + kind1.name)
 print(kind1.name, kind1.mittagsschlaf)
 kind1.geburtstag()
 
