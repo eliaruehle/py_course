@@ -27,7 +27,3 @@ if __name__ == "__main__":
     print(summation(1))
 
     print(names(name="Uwe", number=81258537, home="Dresden"))
-
-if __name__ == "__main__":
-    main()
-
