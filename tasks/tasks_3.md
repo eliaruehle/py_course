@@ -21,4 +21,4 @@ def is_prime(n:int) -> bool:
 
 + Implementiere eine lineare Suche. Bei der linearen Suche wird ein Array mit Werten nach einem bestimmten Wert durchsucht. Wenn der gesucht Wert gefunden wurde gib den Index zurück, an welchem sich der Wert befindet. __Hinweis:__ Die Funktion enumerate() kann helfen, was macht sie?
 
-+ __(Zusatz - schwer):__ Recherchiere, wie die binäre Suche funktioniert. Implementiere eine Funktion, welches die Liste [2,1,5,6,3,8,9,3,2,5,6,1] durchsucht und den Index zurückgibt, an dem das Element 6 auftaucht. Was sind Anforderungen an die Liste vor Beginn der Suche?
++ __(Zusatz - schwer):__ Recherchiere, wie die binäre Suche funktioniert. Implementiere eine Funktion, welches die Liste [2,1,5,6,3,8,9,3,2,5,6,1] zunächst sortiert, anschließend durchsucht und den Index zurückgibt, an dem das Element 6 auftaucht.

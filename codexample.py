@@ -1,3 +1,4 @@
+import functools
 """
 The difference between *args and **kwargs:
 """
@@ -22,8 +23,9 @@ def names(**kwargs) -> None:
         print(f"My {key} is {value}")
 
 if __name__ == "__main__":
-    print(summation(1,2,3,4,5))
-    print(summation(1,2,3))
-    print(summation(1))
+    my_list = ["Apfel", "Banane", "Kiwi", "Wassermelone", "mango"]
 
-    print(names(name="Uwe", number=81258537, home="Dresden"))
+    list1 = [2,3,4,5]
+    list2 = [0.5, 0.5]
+    value = functools.reduce(lambda a,b: a+b == 1, list2)
+    print(value)   
