@@ -133,6 +133,6 @@ print(list2)
 import functools 
 
 list1 = [2,3,4,5]
-value = functools.reduce(lambda a,b: a+b == 1 0, list1)
+value = functools.reduce(lambda a,b: a+b == 1, list1)
 print(list2)
 ```

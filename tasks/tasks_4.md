@@ -7,8 +7,6 @@
   + sortiere die Strings nach der alphabetischen Reihenfolge des mittleren Buchstabens
   + sortiere die Strings nach der Reihenfolge ihrer Hashwerte, nutzte dabei die hash(s:str) -> int Funktion um den Hash zu berechnen
 
-+ Lege dir eine Liste an, welche unterschiedliche Datentypen z.B. int, str, float, tuple... in zusammengewürfelter Reihenfolge enthält und sortiere die Liste nach den Datentypen.
-
 + Lege eine Liste von Paaren an, wobei jedes Paar aus zwei Zahlenwerten bestehen soll. Sortiere die Liste absteigend nach den Zahlenwerten des zweiten Tupeleintrags. 
 
 ### Lambda-Funktionen
