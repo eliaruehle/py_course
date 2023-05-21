@@ -45,7 +45,7 @@ def binary_search(list : list, element):
     if list[n] == element:
         return element
     elif list[n] < element:
-        return binary_search(list[n+1:], element)
+        return n + binary_search(list[n+1:], element)
     elif list[n] > element:
         return binary_search(list[:n], element)
     raise ValueError(f"The list does not contain the searched element '{element}'")
