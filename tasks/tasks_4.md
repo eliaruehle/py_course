@@ -18,4 +18,4 @@
 
 + Schreibe eine Liste von beliebigen Zahlen (float & int) und berechne die Summe über alle Zahlen indem du die reduce() Funktion aus dem functools package nutzt. 
 
-+ Erzeuge eine Liste mit zufälligen Integern (importiere dazu das modul random und nutze value = random.randint(upper, lower) um einen randomisierten Integer im Intervall [upper. lower] zu erhalten) und filtere diese Liste nach Elementen, welche gerade sind. Probiere das gleiche auch für das Filtern nach ungeraden Einträgen. 
++ Erzeuge eine Liste mit zufälligen Integern (importiere dazu das modul random und nutze value = random.randint(upper, lower) um einen randomisierten Integer im Intervall [upper, lower] zu erhalten) und filtere diese Liste nach Elementen, welche gerade sind. Probiere das gleiche auch für das Filtern nach ungeraden Einträgen. 
