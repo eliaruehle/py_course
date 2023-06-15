@@ -136,3 +136,5 @@ list1 = [2,3,4,5]
 value = functools.reduce(lambda a,b: a+b == 1, list1)
 print(list2)
 ```
+---
+## Aufgaben
