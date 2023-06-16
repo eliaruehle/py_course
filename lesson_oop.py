@@ -1,29 +1,66 @@
 
-class Person:
 
-    def __init__(self, name, age, height):
-        self.name = name
-        self.age = age
-        self.height = height
+class Bankkonto:
+
+    vorname:str
+    nachname:str 
+    vermoegen:str
+
+    def __init__(self, vorname:str, nachname:str, vermoegen:float, aktiv=True):
+        self.vorname = vorname
+        self.nachname = nachname
+        self.vermoegen = vermoegen
+        self.aktiv = aktiv
+
+    def __str__(self):
+        return "Name: " + self.vorname + " " + self.nachname + " Kontostand: " + str(self.vermoegen)
+
+    def get_name(self):
+        return self.vorname + " " + self.nachname
+
+    def get_kontostand(self):
+        return self.vermoegen
     
-    def __str__(self) -> str:
-        return self.name
-
+    def einzahlung(self, amount:float):
+        if not self.aktiv:
+            print("Das Konto ist nicht aktiv")
+            return
+        if amount <= 0:
+            print("Fehler in Einzahlung")
+        elif amount >= 15000.0: 
+            self.vermoegen += 0.99*amount
+        else:
+            self.vermoegen += amount
     
-    def __del__(self):
-        del self.age
-        del self.height
-        del self.name
+    def auszahlung(self, amount:float):
+        if not self.aktiv:
+            print("Das Konto ist nicht aktiv")
+            return
+        if amount <= 0:
+            print("Fehler bei der Auszahlung")
+        elif self.vermoegen - amount < 0: 
+            print("Nicht genügend Geld vorhanden")
+        else:
+            self.vermoegen -= amount
+    
+    def aktivieren(self):
+        if self.aktiv:
+            return 
+        else:
+            self.aktiv = True
+            # self.aktiv = !self.aktiv
+    
+    def deaktivieren(self):
+        if not self.aktiv:
+            return 
+        else:
+            self.aktiv = False
 
-    def __eq__(self, other):
-        return self.name == other.name
-
-
-if __name__ == '__main__':
-    my_class = Person('John', 25, 180)
-    print(my_class.name)
-    print(my_class.age)
-    print(my_class.height)
-
-    del my_class
-    # prin(my_class) -> NameError: name 'my_class' is not defined
+        
+    
+konto = Bankkonto("Uwe", "Aßmann", 5000.50)
+konto.deaktivieren()
+konto.einzahlung(500)
+konto.aktivieren()
+konto.einzahlung(500)
+print(konto.get_kontostand())
