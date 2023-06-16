@@ -5,7 +5,7 @@ class Bankaccount:
     balance:float
     active:bool
 
-    def __init__(self, forename:str, surename:str, balance:float, active=True):
+    def __init__(self, forename:str, surename:str, balance:float, active=True) -> None:
         self.forename = forename
         self.surename = surename
         self.balance = balance
@@ -40,11 +40,11 @@ class Bankaccount:
         else:
             self.balance -= amount
     
-    def deactivate(self):
+    def deactivate(self) -> None:
         if self.active:
             self.active = False
     
-    def activate(self):
+    def activate(self) -> None:
         if not self.active:
             self.active = True
 
