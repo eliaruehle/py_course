@@ -56,3 +56,8 @@ print(kind1.name, kind1.mittagsschlaf)
 kind1.geburtstag()
 
 print(kind1.name, kind1.mittagsschlaf)
+
+a = 5
+
+if 2<a or a+2<3:
+    print(a)
